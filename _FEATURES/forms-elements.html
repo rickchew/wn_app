@@ -1,0 +1,420 @@
+<!-- We don't need full layout here, because this page will be parsed with Ajax-->
+<div class="pages navbar-fixed">
+    <!-- Page, data-page contains page name-->
+    <div data-page="forms-elements" class="page">
+        <!-- Top Navbar-->
+        <div class="navbar no-border primary-bg">
+            <div class="navbar-inner">
+                <div class="left">
+                    <a href="#" class="link icon-only back"><i class="uiicon-left222"></i></a>
+                    <a href="#" class="link icon-only open-panel" data-panel="left"><i class="uiicon-list91"></i></a>
+                    <div class="page-name">Form Elements</div>
+                </div>
+
+                <div class="right">
+                    <a href="#" class="link icon-only header-search-icon"><i class="uiicon-magnifying55"></i></a>
+                    <a href="#" class="link icon-only open-panel header-shop-icon" data-panel="right"><i class="uiicon-shopping238"></i><span>5</span></a>
+                </div>
+
+                <form method="get" action="?" class="tc-header-search list-block">
+                    <div class="item-input item-input-field">
+                        <input type="text" placeholder="Search..." class="" required>
+                    </div>
+                    <button type="submit"></button>
+                </form>
+            </div>
+        </div>
+        <!-- Scrollable page content-->
+        <div class="page-content">
+            <div class="content-block">
+                <div class="row">
+                    <div class="col-100">
+                        <div class="content-block-inner">
+                            <p>Framework7 provides very flexible forms layout, you can use it with/out icons, with/out labels, or mixed layouts.</p>
+                            <p>You can refer <a href="http://www.idangero.us/framework7/docs/form-elements.html" class="external" rel="nofollow" target="_blank">this page</a> for detailed official documentation.</p>
+                        </div>
+                    </div><!-- .col-100 | ENDS -->
+                </div><!-- .row | ENDS -->
+
+                <div class="row">
+                    <div class="col-100 tablet-50">
+                        <div class="content-block-inner">
+                            <h3>Full Layout</h3>
+                            <div class="list-block inputs-list">
+                                <ul>
+                                    <li>
+                                        <div class="item-content">
+                                            <div class="item-media"><i class="icon icon-form-name"></i></div>
+                                            <div class="item-inner">
+                                                <div class="item-title label">Name</div>
+                                                <div class="item-input">
+                                                    <input type="text" placeholder="Your name"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item-content">
+                                            <div class="item-media"><i class="icon icon-form-email"></i></div>
+                                            <div class="item-inner">
+                                                <div class="item-title label">E-mail</div>
+                                                <div class="item-input">
+                                                    <input type="email" placeholder="E-mail"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item-content">
+                                            <div class="item-media"><i class="icon icon-form-url"></i></div>
+                                            <div class="item-inner">
+                                                <div class="item-title label">URL</div>
+                                                <div class="item-input">
+                                                    <input type="url" placeholder="URL"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item-content">
+                                            <div class="item-media"><i class="icon icon-form-password"></i></div>
+                                            <div class="item-inner">
+                                                <div class="item-title label">Password</div>
+                                                <div class="item-input">
+                                                    <input type="password" placeholder="Password"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item-content">
+                                            <div class="item-media"><i class="icon icon-form-tel"></i></div>
+                                            <div class="item-inner">
+                                                <div class="item-title label">Phone</div>
+                                                <div class="item-input">
+                                                    <input type="tel" placeholder="Phone"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item-content">
+                                            <div class="item-media"><i class="icon icon-form-gender"></i></div>
+                                            <div class="item-inner">
+                                                <div class="item-title label">Gender</div>
+                                                <div class="item-input">
+                                                    <select>
+                                                        <option>Male</option>
+                                                        <option>Female</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item-content">
+                                            <div class="item-media"><i class="icon icon-form-calendar"></i></div>
+                                            <div class="item-inner">
+                                                <div class="item-title label">Birth date</div>
+                                                <div class="item-input">
+                                                    <input type="date" placeholder="Birth day" value="2014-04-30"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item-content">
+                                            <div class="item-media"><i class="icon icon-form-calendar"></i></div>
+                                            <div class="item-inner">
+                                                <div class="item-title label">Date time</div>
+                                                <div class="item-input">
+                                                    <input type="datetime-local" placeholder="Birth day"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item-content">
+                                            <div class="item-media"><i class="icon icon-form-toggle"></i></div>
+                                            <div class="item-inner">
+                                                <div class="item-title label">Switch</div>
+                                                <div class="item-input">
+                                                    <label class="label-switch">
+                                                        <input type="checkbox"/>
+                                                        <div class="checkbox"></div>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item-content">
+                                            <div class="item-media"><i class="icon icon-form-settings"></i></div>
+                                            <div class="item-inner">
+                                                <div class="item-title label">Slider</div>
+                                                <div class="item-input">
+                                                    <div class="range-slider">
+                                                        <input type="range" min="0" max="100" value="50" step="0.1"/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="align-top">
+                                        <div class="item-content">
+                                            <div class="item-media"><i class="icon icon-form-comment"></i></div>
+                                            <div class="item-inner">
+                                                <div class="item-title label">Resizeable Textarea</div>
+                                                <div class="item-input">
+                                                    <textarea class="resizable"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div><!-- .list-block | ENDS -->
+                        </div><!-- .content-block-inner | ENDS -->
+                    </div><!-- .col-100 | ENDS -->
+
+                    <div class="col-100 tablet-50">
+                        <div class="content-block-inner">
+                            <h3>With Floating Labels</h3>
+                            <div class="list-block inputs-list">
+                                <ul>
+                                    <li>
+                                        <div class="item-content">
+                                            <div class="item-media"><i class="icon icon-form-name"></i></div>
+                                            <div class="item-inner">
+                                                <div class="item-title floating-label">Your name</div>
+                                                <div class="item-input">
+                                                    <input type="text" placeholder=""/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item-content">
+                                            <div class="item-media"><i class="icon icon-form-email"></i></div>
+                                            <div class="item-inner">
+                                                <div class="item-title floating-label">E-mail</div>
+                                                <div class="item-input">
+                                                    <input type="email" placeholder=""/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item-content">
+                                            <div class="item-media"><i class="icon icon-form-url"></i></div>
+                                            <div class="item-inner">
+                                                <div class="item-title floating-label">URL</div>
+                                                <div class="item-input">
+                                                    <input type="url" placeholder=""/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item-content">
+                                            <div class="item-media"><i class="icon icon-form-password"></i></div>
+                                            <div class="item-inner">
+                                                <div class="item-title floating-label">Password</div>
+                                                <div class="item-input">
+                                                    <input type="password" placeholder=""/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item-content">
+                                            <div class="item-media"><i class="icon icon-form-tel"></i></div>
+                                            <div class="item-inner">
+                                                <div class="item-title floating-label">Phone</div>
+                                                <div class="item-input">
+                                                    <input type="tel" placeholder=""/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item-content">
+                                            <div class="item-media"><i class="icon icon-form-gender"></i></div>
+                                            <div class="item-inner">
+                                                <div class="item-title floating-label">Gender</div>
+                                                <div class="item-input">
+                                                    <select>
+                                                        <option> </option>
+                                                        <option>Male</option>
+                                                        <option>Female</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="align-top">
+                                        <div class="item-content">
+                                            <div class="item-media"><i class="icon icon-form-comment"></i></div>
+                                            <div class="item-inner">
+                                                <div class="item-title floating-label">Resizeable Textarea</div>
+                                                <div class="item-input">
+                                                    <textarea class="resizable"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div><!-- .list-block | ENDS -->
+                        </div><!-- .content-block-inner | ENDS -->
+                    </div><!-- .col-100 | ENDS -->
+                </div><!-- .row | ENDS -->
+
+                <div class="row">
+                    <div class="col-100 tablet-50">
+                        <div class="content-block-inner">
+                            <h3>Icons and inputs</h3>
+                            <div class="list-block inputs-list">
+                                <ul>
+                                    <li>
+                                        <div class="item-content">
+                                            <div class="item-media"><i class="icon icon-form-name"></i></div>
+                                            <div class="item-inner">
+                                                <div class="item-input">
+                                                    <input type="text" placeholder="Your name"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item-content">
+                                            <div class="item-media"><i class="icon icon-form-email"></i></div>
+                                            <div class="item-inner">
+                                                <div class="item-input">
+                                                    <input type="email" placeholder="E-mail"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item-content">
+                                            <div class="item-media"><i class="icon icon-form-gender"></i></div>
+                                            <div class="item-inner">
+                                                <div class="item-input">
+                                                    <select>
+                                                        <option>Male</option>
+                                                        <option>Female</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item-content">
+                                            <div class="item-media"><i class="icon icon-form-calendar"></i></div>
+                                            <div class="item-inner">
+                                                <div class="item-input">
+                                                    <input type="date" placeholder="Birth day" value="2014-04-30"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item-content">
+                                            <div class="item-media"><i class="icon icon-form-toggle"></i></div>
+                                            <div class="item-inner">
+                                                <div class="item-input">
+                                                    <label class="label-switch">
+                                                        <input type="checkbox"/>
+                                                        <div class="checkbox"></div>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div><!-- .list-block | ENDS -->
+                        </div><!-- .content-block-inner | ENDS -->
+                    </div><!-- .col-100 | ENDS -->
+
+                    <div class="col-100 tablet-50">
+                        <div class="content-block-inner">
+                            <h3>Labels and inputs</h3>
+                            <div class="list-block inputs-list">
+                                <ul>
+                                    <li>
+                                        <div class="item-content">
+                                            <div class="item-inner">
+                                                <div class="item-title label">Name</div>
+                                                <div class="item-input">
+                                                    <input type="text" placeholder="Your name"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item-content">
+                                            <div class="item-inner">
+                                                <div class="item-title label">E-mail</div>
+                                                <div class="item-input">
+                                                    <input type="email" placeholder="E-mail"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item-content">
+                                            <div class="item-inner">
+                                                <div class="item-title label">Gender</div>
+                                                <div class="item-input">
+                                                    <select>
+                                                        <option>Male</option>
+                                                        <option>Female</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item-content">
+                                            <div class="item-inner">
+                                                <div class="item-title label">Birth date</div>
+                                                <div class="item-input">
+                                                    <input type="date" placeholder="Birth day" value="2014-04-30"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item-content">
+                                            <div class="item-inner">
+                                                <div class="item-title label">Switch</div>
+                                                <div class="item-input">
+                                                    <label class="label-switch">
+                                                        <input type="checkbox"/>
+                                                        <div class="checkbox"></div>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div><!-- .list-block | ENDS -->
+                        </div><!-- .content-block-inner | ENDS -->
+                    </div><!-- .col-100 | ENDS -->
+                </div><!-- .row | ENDS -->
+            </div><!-- .content-block | ENDS -->
+
+            <div class="content-block tc-footer text-center primary-bg">
+                <div class="content-block-inner">
+                    <span>Copyright 2015 by ThemingCool</span>
+                    <div>
+                        <a href="#" class="external tc-icon-ball socialicon-facebook43 color-facebook"></a>
+                        <a href="#" class="external tc-icon-ball socialicon-google109 color-google"></a>
+                        <a href="#" class="external tc-icon-ball socialicon-twitter34 color-twitter"></a>
+                        <a href="#" class="external tc-icon-ball socialicon-pinterest26 color-pinterest"></a>
+                        <a href="#" class="external tc-icon-ball socialicon-dribbble11 color-dribbble"></a>
+                    </div>
+                </div><!-- .content-block-inner | ENDS -->
+            </div><!-- .tc-footer | ENDS -->
+        </div><!-- .page-content | ENDS -->
+    </div>
+</div>
